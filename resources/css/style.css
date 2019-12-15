@@ -1,0 +1,513 @@
+html {
+
+   font-family: 'Lato', 'Arial', sans-serif;
+
+
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+header {
+    background: -webkit-gradient(linear, left top, left bottom, from(#64c8e6), to(#404eeb));
+    background: linear-gradient(#64c8e6, #404eeb);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+body{
+    margin: 0%;
+}
+
+
+nav {
+
+    padding-bottom: 150px;
+
+}
+
+.hi-name {
+
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+h1  {
+
+    margin-top: 5;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 500%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+
+.full-name h2 {
+
+    padding-top: 200px;
+    color: rgb(253, 253, 253);
+
+}
+
+h2 {
+    opacity: 0;
+    margin-bottom: 20px;
+    font-size: 200%;
+    word-spacing: 4px;
+    letter-spacing: px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+
+
+
+.github-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  5%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+.github-logo a {
+  text-decoration: none;
+
+}
+
+.view-github {
+    color: white;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.github-logo:hover img {
+
+    -webkit-filter: brightness(10%);
+
+}
+
+.github-logo:hover h3 {
+
+    visibility: visible;
+    -webkit-animation: 0.5s ease-out fadeIn;
+    animation: 0.5s ease-out fadeIn;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.github-logo img {
+
+
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+
+.project-section {
+
+ background-color: whitesmoke;
+ padding-bottom: 100px;
+
+}
+
+.project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+.project-h1 h1 {
+
+    color: #797979;
+    font-weight: 400;
+    font-size: 225%;
+    width: 100%;
+    padding-bottom: 10px;
+
+
+}
+
+.project-text {
+    border-bottom: 1.5px solid #b9baba;
+
+
+}
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+}
+
+.project-section .column {
+    position: absolute;
+  float: left;
+  width: auto;
+  max-width: 20%;
+  padding-left: 300px;
+  padding-top: 100px;
+
+  position: relative;
+
+}
+
+.project-section .column img:hover {
+
+    -webkit-filter: brightness(50%);
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: transform 0.5s, filter 0.7s;
+    transition: transform 0.5s, filter 0.7s, -webkit-transform 0.5s, -webkit-filter 0.7s;
+}
+
+.project-section .column:hover p {
+    color:#5db194;
+    font-weight: 1000;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.column p {
+
+    padding-top: 350px;
+}
+
+.app-text {
+    font-size: 210%;
+
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 160px;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover img {
+  opacity: 1;
+  -webkit-filter: brightness(50%);
+  -webkit-transform: scale(1.09);
+  transform: scale(1.09);
+  -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+  transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+  transition: transform 0.5s, filter 0.7s;
+  transition: transform 0.5s, filter 0.7s, -webkit-transform 0.5s, -webkit-filter 0.7s;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.java-text {
+    color: #edc20c;
+}
+
+.python-text {
+
+   background: -webkit-linear-gradient(-180deg,#ede640,#4298d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.html-text {
+    color: #f56409;
+}
+
+.java-text,
+.python-text,
+.html-text {
+
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 100px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bigrill-link {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  top: 150px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.java-img {
+
+    -webkit-transform: scale(1);
+
+    transform: scale(1);
+    margin-top: 85px;
+    margin-right: 150px;
+    width: 15%;
+}
+
+
+
+
+.skills-section {
+
+
+    padding-bottom: 75px;
+
+}
+
+.skills-section h1 {
+
+    padding-top: 10px;
+    color: #797979;
+    font-weight: 400;
+    margin-left: 450px;
+    font-size: 225%;
+    width: 40%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 150%;
+    font-weight: 400;
+    float: left;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.spoken-languages {
+
+    padding-top: 50px;
+    background-color: #eaeaea;
+    padding-bottom: 75px;
+}
+
+.spoken-languages h1 {
+
+    padding-top: 10px;
+    color: #797979;
+    font-weight: 400;
+    margin-left: 450px;
+    font-size: 225%;
+    width: 40%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+.spoken-languages .row {
+
+    padding-left: 10px;
+
+}
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+    padding-left: 375px;
+}
+
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 1000;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 375px;
+}
+.mini-li li {
+
+
+    color: rgba(98, 98, 98, 0.78);
+    font-size: 150%;
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    font-style:italic;
+
+}
+
+
+
+
+
+
+.about-section {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #efefef
+
+
+}
+
+.about-section h3 {
+
+    text-align: center;
+    font-weight: 300;
+
+
+}
