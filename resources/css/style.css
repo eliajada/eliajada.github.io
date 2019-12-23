@@ -507,7 +507,16 @@ h2 {
 .about-section h3 {
 
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
 
+
+}
+
+.final-git {
+
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:#878feb;
 
 }
