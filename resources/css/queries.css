@@ -1,42 +1,972 @@
-/* Big tablet to 1200px (widths smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {
+/* ------------------------------------------------------------------------------*/
+/*                      */
+/*  from 1024 to 1348px */
+/* ------------------------------*/
 
 
-}
+@media only screen and (max-width: 1348px) {
 
+    nav {
+        padding-bottom: 70px;
+    }
 
-
-
-/* Small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1023px) {
-
-
-}
-
-
-
-
-/* Small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px) {
-
-
-}
-
-
-
-
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 530px) {
 
    .hi-name {
 
     margin: auto;
     width: 100%;
+    font-size: 20px;
     padding-top: 20px;
     position: absolute;
     -webkit-animation: 3s ease-out 0s 1 fadeIn;
     animation: 3s ease-out 0s 1 fadeIn;
 }
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
+    .full-name h2 {
+
+    padding-top: 250px;
+    font-weight: 300;
+    font-size: 270%;
+    color: rgb(253, 253, 253);
+
+}
+
+    .github-logo {
+    display: block;
+    margin-right: auto;
+    padding-left: 20px;
+   padding-right: 0px;
+    width:  10%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+    .view-github {
+    margin-top: 20px;
+    margin-right: 15px;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    font-size: 20px;
+}
+
+    .project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.project-h1 h1 {
+
+    font-weight: 300;
+    font-size: 50px;
+
+
+}
+
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.project-section .column {
+  position: absolute;
+  float: left;
+  width: auto;
+  max-width: 40%;
+  padding-left: 150px;
+  padding-top: 70px;
+  position: relative;
+
+
+}
+
+    .container img {
+    }
+
+ .column p {
+
+    padding-top: 500px;
+
+}
+
+ .app-text {
+     font-size: 50px;
+
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 220px;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+    .text {
+  color: white;
+  font-size: 40px;
+  font-weight:500;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.java-text,
+.python-text,
+.html-text {
+
+   padding-top: 200px;
+   margin-bottom: 10px;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section h1 {
+
+    font-weight: 300;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 50px;
+
+}
+
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+
+    .skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 180%;
+    font-weight: 400;
+    float:inherit;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+ .spoken-languages {
+
+    padding-top: 10px;
+    padding-bottom: 60px;
+    }
+
+.spoken-languages h1 {
+
+
+    color: #797979;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 225%;
+    font-size: 50px;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+    .spoken-languages .row {
+
+        padding-left: 200px;
+
+    }
+
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    margin-left: 1px;
+    padding-left: 10px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 135px;
+    }
+
+.mini-li li {
+
+    margin-left: 20px;
+    margin-right: 30px;
+    visibility: visible;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*                     */
+/*  from 930 to 1024px */
+/* ------------------------------*/
+
+
+@media only screen and (max-width: 1024px) {
+
+    nav {
+        padding-bottom: 70px;
+    }
+
+
+   .hi-name {
+
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
+    .full-name h2 {
+
+    padding-top: 250px;
+    font-weight: 300;
+    font-size: 270%;
+    color: rgb(253, 253, 253);
+
+}
+
+    .github-logo {
+    display: block;
+    margin-right: auto;
+    padding-left: 35px;
+   padding-right: 0px;
+    width:  20%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+    .view-github {
+    margin-top: 20px;
+    margin-right: 15px;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    font-size: 20px;
+}
+
+    .github-logo:hover h3 {
+
+    visibility: hidden;
+
+    }
+
+    .project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.project-h1 h1 {
+
+    font-weight: 300;
+    font-size: 50px;
+
+
+}
+
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+    padding-left: 90px;
+}
+
+.project-section .column {
+  position: absolute;
+  float: left;
+  width: auto;
+  max-width: 40%;
+  padding-left: 150px;
+  padding-top: 70px;
+  position: relative;
+
+
+}
+
+    .container img {
+         -webkit-filter: brightness(70%);
+    }
+
+ .column p {
+
+    padding-top: 430px;
+
+}
+
+ .app-text {
+     font-size: 50px;
+
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 190px;
+  opacity: 1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+    .text {
+  color: white;
+  font-size: 30px;
+  font-weight:500;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.java-text,
+.python-text,
+.html-text {
+
+   padding-top: 150px;
+   margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section h1 {
+
+    font-weight: 300;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 50px;
+
+}
+
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+
+    .skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 180%;
+    font-weight: 400;
+    float:inherit;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+ .spoken-languages {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.spoken-languages h1 {
+
+
+    color: #797979;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 225%;
+    font-size: 50px;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+    .spoken-languages .row {
+
+        padding-left: 0px;
+        padding-right: 100px;
+
+    }
+
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+}
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 500;
+    float: inherit;
+    text-align: center;
+    margin-left: 1px;
+    padding-left: 10px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 135px;
+    }
+
+.mini-li li {
+
+    margin-left: 20px;
+    margin-right: 30px;
+    visibility: hidden;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*                     */
+/*  from 775 to 930px */
+/* ------------------------------*/
+
+
+@media only screen and (max-width: 930px) {
+
+    nav {
+        padding-bottom: 70px;
+    }
+
+
+   .hi-name {
+
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
+    .full-name h2 {
+
+    padding-top: 250px;
+    font-weight: 300;
+    font-size: 270%;
+    color: rgb(253, 253, 253);
+
+}
+
+    .github-logo {
+    display: block;
+    margin-right: auto;
+    padding-left: 35px;
+   padding-right: 0px;
+    width:  20%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+    .view-github {
+    margin-top: 20px;
+    margin-right: 15px;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    font-size: 20px;
+}
+
+    .github-logo:hover h3 {
+
+    visibility: hidden;
+
+    }
+
+    .project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.project-h1 h1 {
+
+    font-weight: 300;
+    font-size: 50px;
+
+
+}
+
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+    padding-left: 90px;
+}
+
+.project-section .column {
+  position: absolute;
+  float: left;
+  width: auto;
+  max-width: 40%;
+  padding-left: 150px;
+  padding-top: 70px;
+  position: relative;
+
+
+}
+
+    .container img {
+         -webkit-filter: brightness(70%);
+    }
+
+ .column p {
+
+    padding-top: 370px;
+
+}
+
+ .app-text {
+     font-size: 40px;
+
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 130px;
+  margin-left: 160px;
+  opacity: 1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+    .text {
+  color: white;
+  font-size: 30px;
+  font-weight:500;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.java-text,
+.python-text,
+.html-text {
+
+   padding-top: 130px;
+   margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section h1 {
+
+    font-weight: 300;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 50px;
+
+}
+
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+
+    .skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 180%;
+    font-weight: 400;
+    float:inherit;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+ .spoken-languages {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.spoken-languages h1 {
+
+
+    color: #797979;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 225%;
+    font-size: 50px;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+    .spoken-languages .row {
+
+        padding-left: 0px;
+        padding-right: 100px;
+
+    }
+
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+}
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 500;
+    float: inherit;
+    text-align: center;
+    margin-left: 1px;
+    padding-left: 10px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 135px;
+    }
+
+.mini-li li {
+
+    margin-left: 20px;
+    margin-right: 30px;
+    visibility: hidden;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*  iPad */
+/*  from 450 to 775px */
+/* ------------------------------*/
+
+
+@media only screen and (max-width: 775px) {
+
+   .hi-name {
+
+    margin: auto;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
     .full-name h2 {
 
     padding-top: 200px;
@@ -47,9 +977,9 @@
 
     .github-logo {
     display: block;
-    margin-left: auto;
+    margin-left: 305px;;
     margin-right: auto;
-   padding-left: 30px;
+   padding-right: 0px;
     width:  30%;
     -webkit-animation: 3s ease-out fadeIn;
     animation: 3s ease-out fadeIn;
@@ -63,7 +993,315 @@
 
     .view-github {
     margin-top: 20px;
-    margin-right: 25px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+    display: none;
+    visibility: hidden;
+
+}
+
+    .github-logo:hover h3 {
+
+    visibility: hidden;
+
+    }
+
+    .project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.project-h1 h1 {
+
+    font-weight: 300;
+    font-size: 50px;
+
+
+}
+
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.project-section .column {
+  position: absolute;
+  float: left;
+  width: auto;
+  max-width: 40%;
+  padding-left: 200px;
+  padding-top: 70px;
+  position: relative;
+
+
+}
+
+    .container img {
+       -webkit-filter: brightness(50%);
+    }
+
+ .column p {
+
+    padding-top: 350px;
+}
+
+ .app-text {
+    font-size: 200%;
+
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 150px;
+  opacity: 1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+    .text {
+  color: white;
+  font-size: 25px;
+  font-weight:500;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.java-text,
+.python-text,
+.html-text {
+
+   padding-top: 40px;
+   margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section h1 {
+
+    font-weight: 300;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 50px;
+
+}
+
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+
+    .skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 180%;
+    font-weight: 400;
+    float:inherit;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+ .spoken-languages {
+
+    padding-top: 10px;
+    padding-bottom: 60px;
+    }
+
+.spoken-languages h1 {
+
+
+    color: #797979;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 225%;
+    font-size: 50px;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    margin-left: 1px;
+    padding-left: 10px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 135px;
+    }
+
+.mini-li li {
+
+    margin-left: 20px;
+    margin-right: 30px;
+    visibility: visible;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*  iPhone 6/7/8 PLUS */
+/*  from 400 to 450px */
+/* ------------------------------*/
+
+
+@media only screen and (max-width: 500px) {
+
+   .hi-name {
+
+    margin: auto;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
+    .full-name h2 {
+
+    padding-top: 200px;
+    font-weight: 300;
+    color: rgb(253, 253, 253);
+
+}
+
+    .github-logo {
+    display: block;
+    margin-left: 155px;;
+    margin-right: auto;
+   padding-right: 0px;
+    width:  30%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+    .view-github {
+    margin-top: 20px;
+    margin-right: 20px;
     color: white;
     text-align: center;
     visibility: visible;
@@ -120,7 +1358,7 @@
   float: left;
   width: auto;
   max-width: 40%;
-  padding-left: 150px;
+  padding-left: 110px;
   padding-top: 50px;
   position: relative;
 
@@ -133,7 +1371,7 @@
 
  .column p {
 
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
  .app-text {
@@ -149,8 +1387,8 @@
   right: 0;
   height: 100%;
   width: 100%;
-  margin-top: 90px;
-  margin-left: 100px;
+  margin-top: 60px;
+  margin-left: 90px;
   opacity: 1;
   -webkit-transition: .7s ease;
   transition: .7s ease;
@@ -207,8 +1445,8 @@
 .skills-section .column {
 
     padding-top: 50px;
-    padding-left: 4px;
-    padding-right: 40px;
+    padding-left: 90px;
+    padding-right: 100px;
 }
 
 
@@ -219,13 +1457,14 @@
     border-radius: 20px;
     font-size: 130%;
     font-weight: 400;
-    float: left;
+    float:inherit;
     margin-left: 17px;
     margin-bottom: 10px;
     padding-left: 34px;
     padding-right: 34px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 
 }
 
@@ -238,16 +1477,17 @@
  .spoken-languages {
 
     padding-top: 10px;
+    padding-bottom: 10px;
     }
 
 .spoken-languages h1 {
 
 
     color: #797979;
-    font-weight: 400;
-    margin-left: 150px;
+    font-weight: 300;
+    margin-left: 5px;
     font-size: 225%;
-    width: 40%;
+    width: 100%;
     border-bottom: 1px solid #bababa;
     padding-bottom: 10px;
 
@@ -257,7 +1497,7 @@
 .spoken-languages .column {
 
     padding-top: 50px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .spoken-languages .column li {
@@ -266,7 +1506,7 @@
     font-size: 200%;
     font-weight: 500;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 40px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -288,3 +1528,889 @@
 }
 
 }
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*  iPhone 6/7/8 PLUS */
+/*  from 500 to 700px */
+/* ------------------------------*/
+
+
+@media only screen and (max-width: 700px) {
+
+   .hi-name {
+
+    margin: auto;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
+    .full-name h2 {
+
+    padding-top: 200px;
+    font-weight: 300;
+    color: rgb(253, 253, 253);
+
+}
+
+    .github-logo {
+    display: block;
+    margin-left: 200px;;
+    margin-right: auto;
+   padding-right: 0px;
+    width:  30%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+    .view-github {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+    visibility: visible;
+
+}
+
+    .project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.project-h1 h1 {
+
+    font-weight: 300;
+
+
+}
+
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+    padding-left: 90px;
+}
+
+.project-section .column {
+  position: absolute;
+  float: left;
+  width: auto;
+  max-width: 40%;
+  padding-left: 110px;
+  padding-top: 50px;
+  position: relative;
+
+
+}
+
+    .container img {
+       -webkit-filter: brightness(50%);
+    }
+
+ .column p {
+
+    padding-top: 250px;
+}
+
+ .app-text {
+    font-size: 200%;
+
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 80px;
+  margin-left: 110px;
+  opacity: 1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+    .text {
+  color: white;
+  font-size: 15px;
+  font-weight:500;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.java-text,
+.python-text,
+.html-text {
+
+   margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section h1 {
+
+    font-weight: 300;
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+
+    .skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 130%;
+    font-weight: 400;
+    float:inherit;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+ .spoken-languages {
+
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+    }
+
+.spoken-languages h1 {
+
+
+    color: #797979;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 225%;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+
+
+.spoken-languages .row {
+
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 30px;
+    }
+
+.mini-li li {
+
+
+    visibility: hidden;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*  iPhone 6/7/8 PLUS */
+/*  from 400 to 450px */
+/* ------------------------------*/
+
+
+@media only screen and (max-width: 500px) {
+
+   .hi-name {
+
+    margin: auto;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
+    .full-name h2 {
+
+    padding-top: 200px;
+    font-weight: 300;
+    color: rgb(253, 253, 253);
+
+}
+
+    .github-logo {
+    display: block;
+    margin-left: 155px;;
+    margin-right: auto;
+   padding-right: 0px;
+    width:  30%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+    .view-github {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+    visibility: visible;
+
+}
+
+    .project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.project-h1 h1 {
+
+    font-weight: 300;
+
+
+}
+
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+}
+
+.project-section .column {
+  position: absolute;
+  float: left;
+  width: auto;
+  max-width: 40%;
+  padding-left: 110px;
+  padding-top: 50px;
+  position: relative;
+
+
+}
+
+    .container img {
+       -webkit-filter: brightness(50%);
+    }
+
+ .column p {
+
+    padding-top: 200px;
+}
+
+ .app-text {
+    font-size: 200%;
+
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 90px;
+  opacity: 1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+    .text {
+  color: white;
+  font-size: 15px;
+  font-weight:500;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.java-text,
+.python-text,
+.html-text {
+
+   margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section h1 {
+
+    font-weight: 300;
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+
+    .skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 130%;
+    font-weight: 400;
+    float:inherit;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+ .spoken-languages {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.spoken-languages h1 {
+
+
+    color: #797979;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 225%;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 30px;
+    }
+
+.mini-li li {
+
+
+    visibility: hidden;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*        iPhone 6/7/8/X          */
+/* Small phones: from 0 to 400px */
+/* ------------------------------*/
+@media only screen and (max-width: 400px) {
+
+   .hi-name {
+
+    margin: auto;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 20px;
+    position: absolute;
+    -webkit-animation: 3s ease-out 0s 1 fadeIn;
+    animation: 3s ease-out 0s 1 fadeIn;
+}
+
+    nav h1 {
+
+        padding-right: 25px;
+
+    }
+
+    .full-name h2 {
+
+    padding-top: 200px;
+    font-weight: 300;
+    color: rgb(253, 253, 253);
+
+}
+
+    .github-logo {
+    display: block;
+    margin-left: 140px;;
+    margin-right: auto;
+   padding-right: 0px;
+    width:  30%;
+    -webkit-animation: 3s ease-out fadeIn;
+    animation: 3s ease-out fadeIn;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+}
+
+    .view-github {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+    visibility: visible;
+
+}
+
+    .project-h1 {
+
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.project-h1 h1 {
+
+    font-weight: 300;
+
+
+}
+
+
+.project-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+    border: 5px solid #ede1e1;
+    border-radius: 15px;
+
+
+}
+
+
+.project-section .row {
+    padding-bottom: 20px;
+}
+
+.project-section .column {
+  position: absolute;
+  float: left;
+  width: auto;
+  max-width: 40%;
+  padding-left: 110px;
+  padding-top: 50px;
+  position: relative;
+
+
+}
+
+    .container img {
+       -webkit-filter: brightness(50%);
+    }
+
+ .column p {
+
+    padding-top: 200px;
+}
+
+ .app-text {
+    font-size: 200%;
+
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 83px;
+  opacity: 1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background-color: #008CBA;
+}
+
+    .text {
+  color: white;
+  font-size: 15px;
+  font-weight:500;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.java-text,
+.python-text,
+.html-text {
+
+   margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-section h1 {
+
+    font-weight: 300;
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+
+.skills-section .column {
+
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+
+    .skills-section .column li {
+
+    background-color: #efefef;
+    border: 3px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 130%;
+    font-weight: 400;
+    float:inherit;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+ .spoken-languages {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.spoken-languages h1 {
+
+
+    color: #797979;
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 225%;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+
+}
+
+
+.spoken-languages .column {
+
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.spoken-languages .column li {
+
+    color: #626262;
+    font-size: 200%;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.mini-column {
+
+    padding-left: 30px;
+    }
+
+.mini-li li {
+
+
+    visibility: hidden;
+
+}
+
+}
+
+
