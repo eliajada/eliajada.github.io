@@ -4,7 +4,7 @@
 /* ------------------------------*/
 
 
-@media only screen and (max-width: 1348px) {
+@media (min-width: 1024px) and (max-width: 1348px) {
 
     nav {
         padding-bottom: 70px;
@@ -314,7 +314,7 @@
 /* ------------------------------*/
 
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 931px) and (max-width: 1024px) {
 
     nav {
         padding-bottom: 70px;
@@ -628,7 +628,7 @@
 /* ------------------------------*/
 
 
-@media only screen and (max-width: 930px) {
+@media (min-width: 776px) and (max-width: 930px) {
 
     nav {
         padding-bottom: 70px;
@@ -948,7 +948,7 @@
 /* ------------------------------*/
 
 
-@media only screen and (max-width: 775px) {
+@media (min-width: 701px) and (max-width: 775px) {
 
    .hi-name {
 
@@ -1243,302 +1243,13 @@
 
 
 
-
-
-
-
-
-
-
-/* ------------------------------------------------------------------------------*/
-/*  iPhone 6/7/8 PLUS */
-/*  from 400 to 450px */
-/* ------------------------------*/
-
-
-@media only screen and (max-width: 500px) {
-
-   .hi-name {
-
-    margin: auto;
-    width: 100%;
-    font-size: 12px;
-    padding-top: 20px;
-    position: absolute;
-    -webkit-animation: 3s ease-out 0s 1 fadeIn;
-    animation: 3s ease-out 0s 1 fadeIn;
-}
-
-    nav h1 {
-
-        padding-right: 25px;
-
-    }
-
-    .full-name h2 {
-
-    padding-top: 200px;
-    font-weight: 300;
-    color: rgb(253, 253, 253);
-
-}
-
-    .github-logo {
-    display: block;
-    margin-left: 155px;;
-    margin-right: auto;
-   padding-right: 0px;
-    width:  30%;
-    -webkit-animation: 3s ease-out fadeIn;
-    animation: 3s ease-out fadeIn;
-    -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-
-
-}
-
-    .view-github {
-    margin-top: 20px;
-    margin-right: 20px;
-    color: white;
-    text-align: center;
-    visibility: visible;
-
-}
-
-    .project-h1 {
-
-    padding-top: 10px;
-    padding-bottom: 2px;
-    margin-left: 50px;
-    margin-right: 50px;
-
-}
-
-.project-h1 h1 {
-
-    font-weight: 300;
-
-
-}
-
-
-.project-section img {
-    height: auto;
-    overflow: hidden;
-    float:left;
-    -webkit-transform: scale(1.13);
-    transform: scale(1.13);
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
-    max-height: 100%;
-    max-width: 100%;
-    -webkit-filter: brightness(100%);
-    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
-    transition: -webkit-transform 0.5s filter 0.5s;
-    transition: transform 0.5s filter 0.5s;
-    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
-    border: 5px solid #ede1e1;
-    border-radius: 15px;
-
-
-}
-
-
-.project-section .row {
-    padding-bottom: 20px;
-}
-
-.project-section .column {
-  position: absolute;
-  float: left;
-  width: auto;
-  max-width: 40%;
-  padding-left: 110px;
-  padding-top: 50px;
-  position: relative;
-
-
-}
-
-    .container img {
-       -webkit-filter: brightness(50%);
-    }
-
- .column p {
-
-    padding-top: 200px;
-}
-
- .app-text {
-    font-size: 200%;
-
-}
-
- .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  margin-top: 60px;
-  margin-left: 90px;
-  opacity: 1;
-  -webkit-transition: .7s ease;
-  transition: .7s ease;
-  background-color: #008CBA;
-}
-
-    .text {
-  color: white;
-  font-size: 15px;
-  font-weight:500;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-.java-text,
-.python-text,
-.html-text {
-
-   margin-bottom: 10px;
-  font-size: 40px;
-  font-weight: 400;
-  position: absolute;
-  top: 70px;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.skills-section h1 {
-
-    font-weight: 300;
-    margin-left: 10px;
-    width: 100%;
-
-}
-
-
-.skills-section .column {
-
-    padding-top: 50px;
-    padding-left: 90px;
-    padding-right: 100px;
-}
-
-
-    .skills-section .column li {
-
-    background-color: #efefef;
-    border: 3px solid #ebebeb;
-    border-radius: 20px;
-    font-size: 130%;
-    font-weight: 400;
-    float:inherit;
-    margin-left: 17px;
-    margin-bottom: 10px;
-    padding-left: 34px;
-    padding-right: 34px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-
-}
-
-
-
-
-
-
-
- .spoken-languages {
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    }
-
-.spoken-languages h1 {
-
-
-    color: #797979;
-    font-weight: 300;
-    margin-left: 5px;
-    font-size: 225%;
-    width: 100%;
-    border-bottom: 1px solid #bababa;
-    padding-bottom: 10px;
-
-}
-
-
-.spoken-languages .column {
-
-    padding-top: 50px;
-    padding-left: 60px;
-}
-
-.spoken-languages .column li {
-
-    color: #626262;
-    font-size: 200%;
-    font-weight: 500;
-    text-align: center;
-    margin-left: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    list-style: none;
-    border-bottom: 1px solid black;
-}
-
-.mini-column {
-
-    padding-left: 30px;
-    }
-
-.mini-li li {
-
-
-    visibility: hidden;
-
-}
-
-}
-
-
-
-
 /* ------------------------------------------------------------------------------*/
 /*  iPhone 6/7/8 PLUS */
 /*  from 500 to 700px */
 /* ------------------------------*/
 
 
-@media only screen and (max-width: 700px) {
+@media (min-width: 500px) and (max-width: 700px) {
 
    .hi-name {
 
@@ -1846,7 +1557,7 @@
 /* ------------------------------*/
 
 
-@media only screen and (max-width: 500px) {
+@media (min-width: 401px) and (max-width: 500px) {
 
    .hi-name {
 
@@ -2140,7 +1851,7 @@
 /*        iPhone 6/7/8/X          */
 /* Small phones: from 0 to 400px */
 /* ------------------------------*/
-@media only screen and (max-width: 400px) {
+@media (min-width: 0px) and (max-width: 400px) {
 
    .hi-name {
 
